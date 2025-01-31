@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NashAbobus.exe" version="1.0.0.0" publicKeyToken="529b5f30a55e6aef" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NashAbobus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NashAbobus.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NashAbobus.exe" size="98752">
+      <assemblyIdentity name="NashAbobus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hLg7RXBokDg5zubbGzVJ+QyTFtul4fl2z4EHeg51R30=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icons\Icon.ico" size="17222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s0NPDp7ugbsuIEpGgwCMe+YWDvNa7Jr1y4kVdUmXgw0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NashAbobus.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KAB706-ST2\user" issuerKeyHash="62895e9aec989338e06f076f0f735141a05aa477" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>e8hBotbFuNL73iFL/ToO3QmlerusoUrsYvkPvCjLQ/k=</DigestValue></Reference></SignedInfo><SignatureValue>M3Zxop/xKTy/SQA+43hQeodAKGuC/Jk52Y5yvzXVNx5CseWNCj+TBDPQagYtb0QCOM/1kT1WnobZ+u4oW6Lqi7BDwScZk5AC8eGtf2K2DbXyonpf0PaB/5+tsieeE1Lblq5g91qhkDlKG3jm/nmfwB0gVksIibeQ/UfOz9NVypc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3f/RWNKqnwA9nEz5+Fz0ydAFU50Og5+wVSy/bK3AufmGMEBuvwefwS/t/tN2TKBZfugvdfH62WdOSBulAKJ/MFaT457EellaAhhgCfhzTD78TaDPPJRNOJ/8gAvCDg+s6wrolCsHNpOM52LE14WGiqjlTvd4LK1bJjAnhrfn630=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f943cb28bc0ff962ec4aa1acbb7aa509dd0e3afd4b21defbd2b8c5d6a241c87b" Description="" Url=""><as:assemblyIdentity name="NashAbobus.exe" version="1.0.0.0" publicKeyToken="529b5f30a55e6aef" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KAB706-ST2\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AzVYfiMVyh+jmqiGqawPbOUwHljt3Bi1wwbURQi6B78=</DigestValue></Reference></SignedInfo><SignatureValue>XCqZXZkKKt6lTLTIYbhPRDbxaqJ8Au2jedLuGRoOl2yMtaYUdlO/kw3hUOLHBGOfzDbPuLa1sYlLBrHSCfmsTcB2RG/gadyADd4Hq9M24+uuW/hoERC8NbENxiM3xBay12Yv8rvdu3/P7xKvAJBxebUUEIAnsUH5MXXfWJcjkXo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3f/RWNKqnwA9nEz5+Fz0ydAFU50Og5+wVSy/bK3AufmGMEBuvwefwS/t/tN2TKBZfugvdfH62WdOSBulAKJ/MFaT457EellaAhhgCfhzTD78TaDPPJRNOJ/8gAvCDg+s6wrolCsHNpOM52LE14WGiqjlTvd4LK1bJjAnhrfn630=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQcEW7sDBUPIZORmYMoJUXPTANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ASwBBAEIANwAwADYALQBTAFQAMgBcAHUAcwBlAHIwHhcNMjUwMTMxMTMxMDA4WhcNMjYwMTMxMTkxMDA4WjApMScwJQYDVQQDHh4ASwBBAEIANwAwADYALQBTAFQAMgBcAHUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN3/0VjSqp8APZxM+fhc9MnQBVOdDoOfsFUsv2ytwLn5hjBAbr8Hn8Ev7f7TdkygWX7oL3Xx+tlnTkgbpQCifzBWk+OexHpZWgIYYAn4c0w+/E2gzzyUTTif/IALwg4PrOsK6JQrBzaTjOdixNeFhoqo5U73eCytWyYwJ4a35+t9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEA0tUuOIN3BhU+ThKH1BAzqfcWcWjKB8X3263jwxWI8mi+1Iz8aC2LdTwkVupDmVycPVtH4mwXTHXmLAM4aLITiVsMX5FlM0Y5Ytm8sz9zw+iz8qIz6djTgpyK3CUrhGzmxW8VBCUVlfeg2AvVUMDlkwW1cZHjabcqShrcJjUUKyo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

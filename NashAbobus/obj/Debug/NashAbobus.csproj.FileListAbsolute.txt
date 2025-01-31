@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\NashAbobus\bin\Debug\NashAbobus.exe.config
+C:\Users\user\Desktop\NashAbobus\bin\Debug\NashAbobus.exe
+C:\Users\user\Desktop\NashAbobus\bin\Debug\NashAbobus.pdb
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.Form1.resources
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.Properties.Resources.resources
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.csproj.GenerateResource.cache
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.exe
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.pdb
+C:\Users\user\Desktop\NashAbobus\bin\Debug\NashAbobus.exe.manifest
+C:\Users\user\Desktop\NashAbobus\bin\Debug\NashAbobus.application
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.exe.manifest
+C:\Users\user\Desktop\NashAbobus\obj\Debug\NashAbobus.application
